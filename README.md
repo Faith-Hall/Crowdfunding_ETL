@@ -12,7 +12,16 @@ For the ETL mini project, you will work with a group to practice building an ETL
 <details>
 <summary>Create the Category and Subcategory DataFrames</summary>
 <br>
-(YOUR INFO HERE)
+After reading the crowdfunding data into a Pandas DataFrame and looking at the columns we needed to assign the category & subcategory to category and subcategory columns.
+```
+crowdfunding_info_df[['category','subcategory']] = crowdfunding_info_df ["category & sub-category"].str.split('/' , expand=True)
+```
+Then we got the unique categories and subcategories in separate lists.
+```
+categories = crowdfunding_info_df['category'].unique()
+subcategories = crowdfunding_info_df['subcategory'].unique()
+```
+  
 </details>
 
 <details>
@@ -32,8 +41,8 @@ For the ETL mini project, you will work with a group to practice building an ETL
 <br>
 (YOUR INFO HERE)
 </details>
-
-
+---
+### Acknowledgements
 
 
 
