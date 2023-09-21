@@ -23,7 +23,19 @@ crowdfunding_info_df.head()
 categories = crowdfunding_info_df['category'].unique()
 subcategories = crowdfunding_info_df['subcategory'].unique()
 ```
-
+- Create numpy arrays from 1-9 for the categories and 1-24 for the subcategories.
+ ```
+category_ids = np.arange(1, 10)
+subcategory_ids = np.arange(1, 25)
+```
+- Use a list comprehension to add "cat" to each category_id.
+```
+cat_ids = [f"cat{category_id}" for category_id in category_ids]
+```
+- Use a list comprehension to add "subcat" to each subcategory_id.
+```   
+scat_ids = [f"subcat{subcategory_ids}" for subcategory_ids in subcategory_ids]
+```
 
 ### Create the Campaign DataFrame
 
