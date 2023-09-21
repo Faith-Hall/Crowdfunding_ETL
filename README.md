@@ -14,6 +14,7 @@
   - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   - A "category" column that contains only the category titles
 ```
+# Assign the category and subcategory values to category and subcategory columns.
 crowdfunding_info_df[['category','subcategory']] = crowdfunding_info_df ["category & sub-category"].str.split('/' , expand=True)
 crowdfunding_info_df.head()
 ```
