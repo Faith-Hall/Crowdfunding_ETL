@@ -12,25 +12,25 @@ For the ETL mini project, you will work with a group to practice building an ETL
 <details>
 <summary>Create the Category and Subcategory DataFrames</summary>
 <br>
-.
+(YOUR INFO HERE)
 </details>
 
 <details>
 <summary>Create the Campaign DataFrame</summary>
 <br>
-.
+(YOUR INFO HERE)
 </details>
 
 <details>
 <summary>Create the Contacts DataFrame</summary>
 <br>
-.
+(YOUR INFO HERE)
 </details>
 
 <details>
 <summary>Create the Crowdfunding Database</summary>
 <br>
-.
+(YOUR INFO HERE)
 </details>
 
 
