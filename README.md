@@ -18,7 +18,11 @@
 crowdfunding_info_df[['category','subcategory']] = crowdfunding_info_df ["category & sub-category"].str.split('/' , expand=True)
 crowdfunding_info_df.head()
 ```
-
+```
+# Get the unique categories and subcategories in separate lists.
+categories = crowdfunding_info_df['category'].unique()
+subcategories = crowdfunding_info_df['subcategory'].unique()
+```
 ### Create the Campaign DataFrame
 
 ### Create the Contacts DataFrame
