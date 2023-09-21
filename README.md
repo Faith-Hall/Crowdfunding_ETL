@@ -41,6 +41,7 @@ subcategories = crowdfunding_info_df['subcategory'].unique()
 <br>
 (YOUR INFO HERE)
 </details>
+
 ---
 ### Acknowledgements
 
