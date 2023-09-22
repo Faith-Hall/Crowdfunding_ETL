@@ -14,17 +14,6 @@
   - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   - A "category" column that contains only the category titles
 
-category_id	category
-0	cat1	food
-1	cat2	music
-2	cat3	technology
-3	cat4	theater
-4	cat5	film & video
-5	cat6	publishing
-6	cat7	games
-7	cat8	photography
-8	cat9	journalism
-
 ![Screenshot 2023-09-21 195314](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/deebc022-b487-4f27-9378-3ac19b7f77ea)
 
 - Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
