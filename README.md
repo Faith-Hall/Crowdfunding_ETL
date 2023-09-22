@@ -30,8 +30,9 @@
 - Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
   - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   - A "category" column that contains only the category titles
-
+<div style="width:60px ; height:60px">
 ![Screenshot 2023-09-21 200331](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/4470003b-530b-432e-9729-ab3adce0326a)
+<div>
 
 - Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
   - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
