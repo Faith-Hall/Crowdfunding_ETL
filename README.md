@@ -52,11 +52,11 @@ category_df.to_csv("Resources/category.csv", index=False)
 
 subcategory_df.to_csv("Resources/subcategory.csv", index=False)
 ```
-### Create the Campaign DataFrame
+### <code style="color : red">Create the Campaign DataFrame</code>
 
-### Create the Contacts DataFrame
+### <code style="color : red">Create the Contacts DataFrame</code>
 
-### Create the Crowdfunding Database
+### <code style="color : red">Create the Crowdfunding Database</code>
 
 ---
 ### Acknowledgements
