@@ -60,6 +60,9 @@ subcategory_df.to_csv("Resources/subcategory.csv", index=False)
 
 ---
 ### Acknowledgements
-
+We would like to thank our teaching staff:
+- Hunter Hollis
+- Sam Espe
+- Randy Sendek
 
 
