@@ -13,45 +13,15 @@
 - Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
   - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   - A "category" column that contains only the category titles
-- Assign the category and subcategory values to category and subcategory columns.
-```
-crowdfunding_info_df[['category','subcategory']] = crowdfunding_info_df ["category & sub-category"].str.split('/' , expand=True)
-crowdfunding_info_df.head()
-```
-- Get the unique categories and subcategories in separate lists.
-```
-categories = crowdfunding_info_df['category'].unique()
-subcategories = crowdfunding_info_df['subcategory'].unique()
-```
-- Create numpy arrays from 1-9 for the categories and 1-24 for the subcategories.
- ```
-category_ids = np.arange(1, 10)
-subcategory_ids = np.arange(1, 25)
-```
-- Use a list comprehension to add "cat" to each category_id.
-```
-cat_ids = [f"cat{category_id}" for category_id in category_ids]
-```
-- Use a list comprehension to add "subcat" to each subcategory_id.
-```   
-scat_ids = [f"subcat{subcategory_ids}" for subcategory_ids in subcategory_ids]
-```
-- Create a category DataFrame with the category_id array as the category_id and categories list as the category name.
-```
-category_dictonary = {'category_id': cat_ids , 'category': categories}
-category_df = pd.DataFrame(category_dictonary)
-```
-- Create a category DataFrame with the subcategory_id array as the subcategory_id and subcategories list as the subcategory name. 
-```
-subcategory_dictonary = {'subcategory_id': scat_ids , 'subcategory': subcategories}
-subcategory_df = pd.DataFrame(subcategory_dictonary)
-```
-- Export categories_df and subcategories_df as CSV files.
-```
-category_df.to_csv("Resources/category.csv", index=False)
 
-subcategory_df.to_csv("Resources/subcategory.csv", index=False)
-```
+![Screenshot 2023-09-21 195314](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/deebc022-b487-4f27-9378-3ac19b7f77ea)
+
+- Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
+  - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
+  - A "subcategory" column that contains only the subcategory titles
+  
+![Screenshot 2023-09-21 195327](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/86db5bfd-f9ee-4466-bc9d-38b6c3110263)
+
 ### <code style="color : red">Create the Campaign DataFrame</code>
 
 ### <code style="color : red">Create the Contacts DataFrame</code>
