@@ -20,7 +20,7 @@
       - Resources
         - category.csv
         - contacts.csv
-        - crowdfunding.csv
+        - crowdfunding.xlsx
         - subcategory.csv
       - ETL_Mini_Project_Group_7.ipynb
       - crowdfundingERD.png
