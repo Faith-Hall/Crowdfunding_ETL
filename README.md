@@ -31,13 +31,13 @@
   - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   - A "category" column that contains only the category titles
 
-![Screenshot 2023-09-21 200331](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/4470003b-530b-432e-9729-ab3adce0326a)
+![Screenshot 2023-09-21 200814](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/a7a7bec9-08b4-4c30-805d-5373457b427b)
 
 - Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
   - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
   - A "subcategory" column that contains only the subcategory titles
   
-![Screenshot 2023-09-21 200319](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/7e2da014-4e98-48a7-aafe-eded45db6d30)
+![Screenshot 2023-09-21 200822](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/4170456f-ada8-49f1-91f3-818ba0810519)
 
 ### <code style="color : red">Create the Campaign DataFrame</code>
 
