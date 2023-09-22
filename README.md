@@ -36,7 +36,22 @@ cat_ids = [f"cat{category_id}" for category_id in category_ids]
 ```   
 scat_ids = [f"subcat{subcategory_ids}" for subcategory_ids in subcategory_ids]
 ```
+- Create a category DataFrame with the category_id array as the category_id and categories list as the category name.
+```
+category_dictonary = {'category_id': cat_ids , 'category': categories}
+category_df = pd.DataFrame(category_dictonary)
+```
+- Create a category DataFrame with the subcategory_id array as the subcategory_id and subcategories list as the subcategory name. 
+```
+subcategory_dictonary = {'subcategory_id': scat_ids , 'subcategory': subcategories}
+subcategory_df = pd.DataFrame(subcategory_dictonary)
+```
+- Export categories_df and subcategories_df as CSV files.
+```
+category_df.to_csv("Resources/category.csv", index=False)
 
+subcategory_df.to_csv("Resources/subcategory.csv", index=False)
+```
 ### Create the Campaign DataFrame
 
 ### Create the Contacts DataFrame
