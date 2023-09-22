@@ -18,6 +18,7 @@
       - ETL_Mini_Project_Starter_Code.ipynb
     - Code
       - Resources
+        - campaign.csv
         - category.csv
         - contacts.csv
         - crowdfunding.xlsx
