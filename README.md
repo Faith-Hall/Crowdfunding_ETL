@@ -64,6 +64,9 @@ Extract and transform the crowdfunding.xlsx Excel data to create a campaign Data
 ---
 ### <code style="color : red">Create the Crowdfunding Database</code>
 - Create an ERD of the tables based on the four CSV files (category.csv,subcategory.csv, campaign.csv, and contacts.csv) using QuickDBD and saved as a png file.
+
+![image](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/ca023fab-5c04-4257-8619-1ab6631685eb)
+
 - Save the database schema is as a Postgres file named 'crowdfunding_db_schema.sql'.
 - Create a new Postgres database named crowdfunding_db.
 - Verify table creation using a SELECT statement for each table.
