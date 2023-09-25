@@ -48,6 +48,7 @@ Extract and transform the crowdfunding.xlsx Excel data to create a campaign Data
 - Format the launched_date and end_date columns to datetime forma
 - Merge the campaign_df with the category_df on the "category" column and the subcategory_df on the "subcategory" column.
 - Drop unwanted columns
+  
 ![Screenshot 2023-09-25 180838](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/bb9862b6-26de-430c-99df-e471e7e0fd50)
 
 ---
