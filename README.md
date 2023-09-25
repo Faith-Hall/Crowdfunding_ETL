@@ -53,7 +53,14 @@ Extract and transform the crowdfunding.xlsx Excel data to create a campaign Data
 
 ---
 ### <code style="color : red">Create the Contacts DataFrame</code>
-
+- Import the contacts.xlsx file into a DataFrame.
+- Iterate through the DataFrame, converting each row to a dictionary.
+- Iterate through each dictionary, doing the following:
+  - Extract the dictionary values from the keys by using a Python list comprehension.
+  - Add the values for each row to a new list.
+- Create a new DataFrame that contains the extracted data.
+- Split each "name" column value into a first and last name, and place each in a new column.
+- Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
 ---
 ### <code style="color : red">Create the Crowdfunding Database</code>
 - Create an ERD of the tables based on the four CSV files (category.csv,subcategory.csv, campaign.csv, and contacts.csv) using QuickDBD and saved as a png file.
