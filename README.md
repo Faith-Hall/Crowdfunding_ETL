@@ -39,11 +39,14 @@
   - A "subcategory" column that contains only the subcategory titles
   
 ![Screenshot 2023-09-21 200822](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/4170456f-ada8-49f1-91f3-818ba0810519)
-
+---
 ### <code style="color : red">Create the Campaign DataFrame</code>
-
+Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame:
+![Screenshot 2023-09-25 180205](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/ea78100f-75e7-4ab7-aed3-3f943e8d169f)
+---
 ### <code style="color : red">Create the Contacts DataFrame</code>
 
+---
 ### <code style="color : red">Create the Crowdfunding Database</code>
 - Create an ERD of the tables based on the four CSV files (category.csv,subcategory.csv, campaign.csv, and contacts.csv) using QuickDBD and saved as a png file.
 - Save the database schema is as a Postgres file named 'crowdfunding_db_schema.sql'.
