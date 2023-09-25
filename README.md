@@ -42,8 +42,14 @@
 ---
 ### <code style="color : red">Create the Campaign DataFrame</code>
 Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame:
+- Create a copy of the crowdfunding_info_df DataFrame name campaign_df.
+- Rename the blurb, launched_at, and deadline columns.
+- Convert the goal and pledged columns to a `float` data type.
+- Format the launched_date and end_date columns to datetime forma
+- Merge the campaign_df with the category_df on the "category" column and the subcategory_df on the "subcategory" column.
+- Drop unwanted columns
+![Screenshot 2023-09-25 180838](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/bb9862b6-26de-430c-99df-e471e7e0fd50)
 
-![Screenshot 2023-09-25 180205](https://github.com/Faith-Hall/Crowdfunding_ETL/assets/135525815/ea78100f-75e7-4ab7-aed3-3f943e8d169f)
 ---
 ### <code style="color : red">Create the Contacts DataFrame</code>
 
